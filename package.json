@@ -1,0 +1,28 @@
+{
+  "name": "filename-ends-with",
+  "version": "0.1.0",
+  "description": "Check if filename ends with a specific string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frenchbread/filename-ends-with.git"
+  },
+  "keywords": [
+    "Filename",
+    "ends",
+    "with",
+    "extension"
+  ],
+  "author": "Damir Mustafin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frenchbread/filename-ends-with/issues"
+  },
+  "homepage": "https://github.com/frenchbread/filename-ends-with#readme",
+  "dependencies": {
+    "lodash": "^4.14.1"
+  }
+}
