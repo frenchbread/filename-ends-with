@@ -31,5 +31,5 @@ fEndsWith('somefilename.txt', ['.md', '.json', '.txt']);
 $ npm test
 ```
 
-### Liccense
+### License
 [MIT](https://github.com/frenchbread/filename-ends-with/blob/master/LICENSE)
