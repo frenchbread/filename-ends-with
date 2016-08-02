@@ -2,6 +2,8 @@
 
 > Check if filename ends with specific string.
 
+[![NPM](https://nodei.co/npm/filename-ends-with.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/filename-ends-with/)
+
 ### Installation
 
 ```
