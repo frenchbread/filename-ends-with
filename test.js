@@ -3,27 +3,27 @@ import fEndsWith from './';
 
 test('Str contains .jpg', (t) => {
 
-  t.is(fEndsWith('somepic.jpg', '.jpg'), true);
+  t.truthy(fEndsWith('somepic.jpg', '.jpg'));
 
 });
 
 test('Str contains .jpg', (t) => {
 
-  t.is(fEndsWith('somepic.jpeg', '.jpg'), false);
+  t.falsy(fEndsWith('somepic.jpeg', '.jpg'));
 
 });
 
 test('Str contains one of 2x arr', (t) => {
 
-  t.is(fEndsWith('somepic.jpg', ['.jpg', '.jpeg']), true);
+  t.truthy(fEndsWith('somepic.jpg', ['.jpg', '.jpeg']));
 });
 
 test('Str contains one of 4x arr', (t) => {
 
-  t.is(fEndsWith('somefilename.txt', ['.md', '.txt', '.cson']), true);
+  t.truthy(fEndsWith('somefilename.txt', ['.md', '.txt', '.cson']));
 });
 
 test('Str contains one of val', (t) => {
 
-  t.is(fEndsWith('somefilename.txt', ['.md', '.json', '.txt']), true);
+  t.truthy(fEndsWith('somefilename.txt', ['.md', '.json', '.txt']));
 });
