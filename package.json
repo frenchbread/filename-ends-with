@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
-    "test": "node_modules/babel-cli/bin/babel.js src --out-dir lib && ava",
-    "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
+    "test": "npm build && ava",
+    "prepublish": "npm build"
   },
   "repository": {
     "type": "git",
